@@ -1,18 +1,15 @@
+# EC7 — Interacting with humans and the real world
+
 **Name:** Gaspar <YOUR SURNAME>
-**Course:** EC7 — Interacting with humans and the real world
-**Machine (OS / architecture):**  
-time (us)  intent            utterance
-------------------------------------------------------------
-     13.90  room_location     Where is room 204?
-     21.80  room_location     where is the accounting office
-     11.40  closing_hours     When does the IT department close?
-      8.70  call_human        Can I speak to someone
-      8.80  call_human        I want to talk to a person
-      7.80  None              where is room 999
-      7.80  closing_hours     what time do you close
-      6.80  call_human        Get me a human!
-      7.40  room_location     where is the cafeteria
-      7.40  None              hi, nice weather today
-------------------------------------------------------------
-n = 10 inputs
-median match time: 8.25 microseconds (0.0083 ms)
+**Course:** ICM – S9 – Module Défi IA – EC7 (Interacting with humans and the real world), Mines Saint-Étienne, 2026 — Maxime Lefrançois
+**Machine (OS / architecture):**   
+platform         Windows-11-10.0.26200-SP0
+python           3.12.6 (C:\Users\gaspa\OneDrive\Bureau\Scolarité\EMSE\IA\01. Environment\ec7\.venv\Scripts\python.exe)
+
+## Structure
+
+- `labs/` — lab skeletons, added once handed out in session 2 onward.
+- `todo1/` — Assignment 1, the reception robot: `spec.md`, `grid.md`, `measure.md`, `time_option_a.py`, `radar.png`.
+- `todo2/` … `todo4/` — added as each assignment is released.
+
+Pushed as work progresses; only the last commit before each deadline is graded.
