@@ -7,7 +7,7 @@
 ## Machine
 
   platform         Windows-11-10.0.26200-SP0
-  python           3.12.6 (C:\Users\gaspa\OneDrive\Bureau\Scolarité\EMSE\IA\01.Environment\ec7\.venv\Scripts\python.exe)
+  python           3.12.6 
 
 ## Raw output
 
