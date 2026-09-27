@@ -5,7 +5,7 @@
 **B** — a pre-trained speech recogniser run locally, plus rules on the resulting text.
 **C** — a hosted speech-and-language API: audio and understanding both happen off-site.
 
-Scale: −3 (strong inadequacy) to +3 (strong adequacy) — for Cost and Energy, +3 means *cheap and frugal*, not *large*.
+Scale: −3 (strong inadequacy) to +3 (strong adequacy).
 
 ## Grid: score (weight) and the one-sentence why, per option
 
