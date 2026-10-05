@@ -33,7 +33,7 @@ Sum of weights = 41 (so the theoretical range is −123 to +123).
 
 ## Radar
 
-(radar.png)
+![Radar chart of the ten criteria plus coverage, for options A, B and C](radar.png)
 
 The shapes say more than the totals: **A** is a wide, confident disc everywhere except robustness and coverage — spiky where a script can't bend. **C** is the mirror image: strong on coverage and robustness, hollow and often negative exactly where the hall's own constraints (deployment, confidentiality, latency) bite. **B** is the roundest of the three — never the single best on any one axis, never badly hollow on any either, which is why it leads on the total without depending on one fragile strength.
 
