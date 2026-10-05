@@ -1,0 +1,8 @@
+Only visitors who stand directly in front of the device and activate the wake cue interact with it.
+People passing by, nearby conversations, or phone calls must never trigger the system.
+The device is placed in a noisy entrance hall under a glass ceiling, which makes the hall ring, so the input always carries echo.
+A nearby coffee machine adds 30-second bursts of constant noise that degrade the audio input.
+Input is a single close-range microphone for all types of requests. Output: acknowledgement by a local light/tone in under 1 s; room and opening-hours answers are spoken, with a screen for longer ones since speech may get lost in the hall noise; a request for a human goes as a silent alert to the staff, plus a spoken confirmation to the visitor.
+Any design whose acknowledgement can exceed 1 s under load is excluded.
+Any solution requiring a newly IT-approved outbound service is excluded: approval takes 1 month and I assume the robot must be live within 2 weeks.
+Any design that can silently fail to reach a human when requested is strictly forbidden, because that failure is what gets the robot switched off.
