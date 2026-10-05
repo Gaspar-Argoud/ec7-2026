@@ -1,6 +1,6 @@
 # EC7 — Interacting with humans and the real world
 
-**Name:** Gaspar <YOUR SURNAME>
+**Name:** Gaspar
 **Course:** ICM – S9 – Module Défi IA – EC7 (Interacting with humans and the real world), Mines Saint-Étienne, 2026 — Maxime Lefrançois
 **Machine (OS / architecture):**   
 platform         Windows-11-10.0.26200-SP0
