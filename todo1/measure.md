@@ -1,4 +1,4 @@
-# todo1/measure.md — timing the Option A baseline
+# Timing the Option A baseline
 
 ## Command
 
