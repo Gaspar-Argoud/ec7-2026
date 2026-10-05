@@ -1,22 +1,8 @@
-"""
-todo1/time_option_a.py
-
-Times ONE decision of Option A: matching a spoken (here: typed) utterance
-against the closed grammar of twenty phrasings, and returning the intent.
-
-This times the decision step only (the string match), not audio capture
-or text-to-speech - those are the same for all three options and are not
-what distinguishes the baseline.
-
-Run:
-    python time_option_a.py
-"""
+# Timing option A
 
 import time
 import statistics
 
-# The closed grammar: twenty phrasings -> one of the three intents the
-# case describes (room location, closing hours, call a human).
 GRAMMAR = {
     "where is room 204": "room_location",
     "where is room 118": "room_location",
@@ -53,10 +39,6 @@ def match(utterance: str):
     """One decision: exact-match the normalised utterance against the grammar."""
     return GRAMMAR.get(normalize(utterance))
 
-
-# At least ten sentences to match, including two that MISS the grammar on
-# purpose (an out-of-list room, and small talk picked up by the open mic) -
-# a closed grammar must still decide fast on those, it just decides "no match".
 TEST_UTTERANCES = [
     "Where is room 204?",
     "where is the accounting office",
