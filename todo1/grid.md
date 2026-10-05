@@ -1,8 +1,6 @@
-# todo1/grid.md — EC7 multicriteria grid: the reception robot
+# Multicriteria grid: the reception robot
 
-Options: **A** is the closed grammar of twenty phrasings (the baseline, no learning), **B** is a pre-trained recogniser run locally plus rules on the text, **C** is a hosted speech and language API.
-
-Scale: -3 to +3, adequate for this need. For cost and energy, +3 means cheap and frugal.
+Options A, B, and C and scale are used here as defined in the course instructions.
 
 ## Grid: score (weight) and the one-sentence why, per option
 
